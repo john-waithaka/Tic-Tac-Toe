@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0; /* Light background color */
+    font-family: Arial, sans-serif; /* Font style */
+}
+
+.board {
+    display: grid;
+    gap: 5px;
+    background-color: #6ca3a3;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    background-color: #9A7B4F;
+}
+
+.cell:hover {
+    background-color: #3f33f0;
+}
+
+.cell.X {
+    color: #00FF00; /* Green for "X" */
+}
+
+.cell.O {
+    color: #FF0000; /* Red for "O" */
+}
+
+.message {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+}
