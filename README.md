@@ -16,7 +16,7 @@ This Tic Tac Toe game will offer a user-friendly experience with the following f
 **Win game by best of rounds**: Have a functional feature that takes in wins through best of rounds.
 
 **Technologies**:
-This game can be developed using various technologies depending on the desired platform. I sepcifically used HTML, CSS and JavaScript.
+This game can be developed using various technologies depending on the desired platform. We sepcifically used HTML, CSS and JavaScript.
 
 
 **Minimum Viable Product (MVP)**:
